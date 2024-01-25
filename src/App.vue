@@ -1,6 +1,7 @@
 <template class="w-full">
-  <CheckboxTest />
-  <InputBoxTest />
+  
+  <!-- <CheckboxTest /> -->
+  <!-- <InputBoxTest /> -->
 </template>
 <script setup lang="ts">
 import CheckboxTest from "./components/form-test/CheckboxTest.vue";
