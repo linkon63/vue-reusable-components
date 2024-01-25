@@ -78,8 +78,6 @@
     :autoResize="false"
 />
 ```
-
-- Picture
   ![BaseTextArea](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basetextarea.png?raw=true)
 
 ## 4️⃣
