@@ -1,6 +1,6 @@
 # Vue reusable components
 
-### 1️⃣ BaseInput
+# * 1️⃣ BaseInput
 ```bash
     # component import
     <BaseInput />
