@@ -47,6 +47,12 @@
 // 📝 When you pass #inside slot then in class props given hidden class="hidden"
 
 ```
+# demo
+![BaseTextArea](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basecheckbox1.png?raw=true)
+
+![BaseTextArea](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basecheckbox2.png?raw=true)
+
+![BaseTextArea](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basecheckbox3.png?raw=true)
 
 ## 3️⃣ BaseTextArea
 
@@ -78,6 +84,7 @@
     :autoResize="false"
 />
 ```
+# demo
   ![BaseTextArea](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basetextarea.png?raw=true)
 
 ## 4️⃣
