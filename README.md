@@ -119,7 +119,9 @@
     width:100%;
     text-align: center;
     ">
-    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basetextarea.png?raw=true" alt='base-image' />
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basetextarea.png?raw=true" alt='base-image'
+    style="width:100%"
+     />
 </div>
 
 ## 4️⃣
