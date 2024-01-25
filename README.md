@@ -167,10 +167,10 @@ interface Props {
     width:100%;
     ">
     <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/dropdown-select-reusable-component-4/public/img/basedropdown1.png?raw=true" alt='base-image'
-    style="width:40%"
+    style="width:50%"
      />
      <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/dropdown-select-reusable-component-4/public/img/basedropdown2.png?raw=true" alt='base-image'
-    style="width:40%"
+    style="width:50%"
      />
 </div>
 
