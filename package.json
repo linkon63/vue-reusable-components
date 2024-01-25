@@ -3,9 +3,18 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "./dist/vue-reusable-components.umd.cjs",
+  "module": "./dist/vue-reusable-components.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-reusable-components.js",
+      "require": "./dist/vue-reusable-components.umd.cjs"
+    }
+  },
+  "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && vue-tsc --emitDeclarationOnly",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -19,5 +28,16 @@
     "postcss": "^8.4.33",
     "tailwindcss": "^3.4.1",
     "vite": "^5.0.8"
-  }
+  },
+  "description": "#### Vue reusable components are there where you can import the component and pass the props for customization..",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linkon63/vue-reusable-components.git"
+  },
+  "author": "linkon63",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linkon63/vue-reusable-components/issues"
+  },
+  "homepage": "https://github.com/linkon63/vue-reusable-components#readme"
 }
