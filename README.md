@@ -165,13 +165,12 @@ interface Props {
     display: flex;
     justify-content: center;
     width:100%;
-    text-align: center;
     ">
     <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/dropdown-select-reusable-component-4/public/img/basedropdown1.png?raw=true" alt='base-image'
-    style="width:50%"
+    style="width:40%"
      />
      <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/dropdown-select-reusable-component-4/public/img/basedropdown2.png?raw=true" alt='base-image'
-    style="width:50%"
+    style="width:40%"
      />
 </div>
 
