@@ -20,11 +20,11 @@
 ```
 # demo
 {:style="text-align:center;"}
-![BaseTextArea](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/baseinputbox1.png?raw=true)
+![base-imagebase-image](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/baseinputbox1.png?raw=true){:style="display:block; margin-left:auto; margin-right:auto"}
 
-![BaseTextArea](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/baseinputbox2.png?raw=true)
+![base-imagebase-image](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/baseinputbox2.png?raw=true){:style="display:block; margin-left:auto; margin-right:auto"}
 
-![BaseTextArea](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/baseinputbox3.png?raw=true)
+![base-imagebase-image](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/baseinputbox3.png?raw=true){:style="display:block; margin-left:auto; margin-right:auto"}
 
 ## 2️⃣ BaseCheckbox
 
@@ -55,11 +55,11 @@
 
 ```
 # demo
-![BaseTextArea](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basecheckbox1.png?raw=true)
+![base-imagebase-image](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basecheckbox1.png?raw=true){:style="display:block; margin-left:auto; margin-right:auto"}
 
-![BaseTextArea](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basecheckbox2.png?raw=true)
+![base-imagebase-image](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basecheckbox2.png?raw=true){:style="display:block; margin-left:auto; margin-right:auto"}
 
-![BaseTextArea](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basecheckbox3.png?raw=true)
+![base-imagebase-image](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basecheckbox3.png?raw=true){:style="display:block; margin-left:auto; margin-right:auto"}
 
 ## 3️⃣ BaseTextArea
 
@@ -92,7 +92,7 @@
 />
 ```
 # demo
-  ![BaseTextArea](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basetextarea.png?raw=true)
+  ![base-image](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basetextarea.png?raw=true){:style="display:block; margin-left:auto; margin-right:auto"}
 
 ## 4️⃣
 
