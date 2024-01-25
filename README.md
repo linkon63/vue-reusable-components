@@ -48,11 +48,50 @@
 
 ```
 
-## 3️⃣ 
-## 4️⃣ 
-## 5️⃣ 
-## 6️⃣ 
-## 7️⃣ 
-## 8️⃣ 
-## 9️⃣ 
+## 3️⃣ BaseTextArea
+
+```js
+// component import
+<BaseTextArea />
+/* props you can pass in <BaseTextArea />
+  label?: string;
+  labelClass?: string;
+  class?: string;
+  name?: string;
+  disabled?: boolean;
+  readonly?: boolean;
+  required?: boolean;
+  rows?: string;
+  cols?: string;
+  placeholder?: string;
+  minlength?: string;
+  maxlength?: string;
+  autoResize?: boolean;
+    */
+
+// example
+<BaseTextArea
+    v-model="message"
+    placeholder="Write you message"
+    label="Your Message"
+    @on-change="(e) => console.log('changes', e.target.value)"
+    :autoResize="false"
+/>
+```
+
+- Picture
+  ![BaseTextArea](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable/component/public/img/basetextarea.png?raw=true)
+
+## 4️⃣
+
+## 5️⃣
+
+## 6️⃣
+
+## 7️⃣
+
+## 8️⃣
+
+## 9️⃣
+
 ## 🔟
