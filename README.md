@@ -163,7 +163,7 @@ interface Props {
 
 <div style=" 
     display: flex;
-    justify-content: center
+    justify-content: center;
     width:100%;
     text-align: center;
     ">
