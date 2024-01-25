@@ -111,7 +111,16 @@
 
 # demo
 
-![base-image](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basetextarea.png?raw=true){:style="display:block; margin-left:auto; margin-right:auto"}
+<div style=" 
+    display:block;
+    float:none;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    text-align: center;
+    ">
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basetextarea.png?raw=true" alt='base-image' />
+</div>
 
 ## 4️⃣
 
