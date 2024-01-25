@@ -1,8 +1,8 @@
 <template>
   <div class="ms-5 p-10">
     <BaseDropDown
-      label="Multi Select Drop Down"
-      labelClass="bg-green-400 hover:bg-green-500"
+      label="Remove low stock product"
+      labelClass="bg-red-400 hover:bg-green-500"
       class="bg-gray-200"
       dropdown-class="p-0"
     >
@@ -25,9 +25,12 @@
       </template>
       <template #dropdownItems>
         <div class="ps-4">
-          <BaseCheckbox label="React" />
-          <BaseCheckbox label="Vue" />
-          <BaseCheckbox label="Laravel" />
+          <BaseCheckbox label="Car" />
+          <BaseCheckbox label="TV" />
+          <BaseCheckbox label="Mobile" />
+          <BaseCheckbox label="Watch" />
+          <BaseCheckbox label="Bike" />
+
         </div>
       </template>
     </BaseDropDown>
