@@ -49,7 +49,7 @@ interface Props {
   required?: boolean;
   optionLabel?: string;
   options?: IOption[] | null;
-  hideDefaultChooseOption: boolean;
+  hideDefaultChooseOption?: boolean;
 }
 
 withDefaults(defineProps<Props>(), {
