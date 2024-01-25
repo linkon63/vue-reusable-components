@@ -143,6 +143,8 @@
 
 <script setup>
 import { reactive, ref, watch } from "vue";
+import BaseInput from "../reusable-components/BaseInput.vue";
+import BaseCheckbox from "../reusable-components/BaseCheckbox.vue";
 const inputBox1 = ref("Hello Default Value 1");
 const inputBox2 = ref("Hello Default Value 2");
 
