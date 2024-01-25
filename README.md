@@ -1,7 +1,7 @@
 # Vue reusable components
 
-# * 1️⃣ BaseInput
-```bash
+## 1️⃣ BaseInput
+``` js
     # component import
     <BaseInput />
     # props you can pass in <BaseInput />
