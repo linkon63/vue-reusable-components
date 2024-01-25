@@ -169,10 +169,10 @@ interface Props {
     width:100%;
     text-align: center;
     ">
-    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basedropdown1.png?raw=true" alt='base-image'
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/dropdown-select-reusable-component-4/public/img/basedropdown1.png?raw=true" alt='base-image'
     style="width:100%"
      />
-     <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basedropdown2.png?raw=true" alt='base-image'
+     <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/dropdown-select-reusable-component-4/public/img/basedropdown2.png?raw=true" alt='base-image'
     style="width:100%"
      />
 </div>
