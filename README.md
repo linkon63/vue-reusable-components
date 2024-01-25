@@ -247,7 +247,7 @@ interface Props {
 <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/multiselect-dropdown-reusable-component-5/public/img/dd3.png?raw=true" alt='base-image'
 style="width:48%"
 />
-<img src="https://github.com/linkon63/vue-reusable-components/blob/feature/multiselect-dropdown-reusable-component-5/public/img/dd4.png?raw=true" alt='base-image'
+<img src="https://github.com/linkon63/vue-reusable-components/blob/feature/multiselect-dropdown-reusable-component-5/public/img/dd5.png?raw=true" alt='base-image'
 style="width:48%"
 />
 </div>
