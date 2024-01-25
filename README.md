@@ -47,3 +47,12 @@
 // 📝 When you pass #inside slot then in class props given hidden class="hidden"
 
 ```
+
+## 3️⃣ 
+## 4️⃣ 
+## 5️⃣ 
+## 6️⃣ 
+## 7️⃣ 
+## 8️⃣ 
+## 9️⃣ 
+## 🔟
