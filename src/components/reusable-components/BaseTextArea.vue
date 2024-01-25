@@ -57,7 +57,7 @@ withDefaults(defineProps<Props>(), {
 });
 const model = defineModel<string | null | number>();
 const input = (e: Event): void => {
-  const value = e.target as HTMLInputElement;
+  const value: HTMLInputElement = e.target as HTMLInputElement;
   model.value = value.value;
   emit("onChange", e);
 };
