@@ -18,7 +18,9 @@
         </template>
       </BaseInput>
 ```
+
 # demo
+
 {:style="text-align:center;"}
 ![base-imagebase-image](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/baseinputbox1.png?raw=true){:style="display:block; margin-left:auto; margin-right:auto"}
 
@@ -54,12 +56,21 @@
 // 📝 When you pass #inside slot then in class props given hidden class="hidden"
 
 ```
+
 # demo
-![base-imagebase-image](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basecheckbox1.png?raw=true){:style="display:block; margin-left:auto; margin-right:auto"}
 
-![base-imagebase-image](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basecheckbox2.png?raw=true){:style="display:block; margin-left:auto; margin-right:auto"}
-
-![base-imagebase-image](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basecheckbox3.png?raw=true){:style="display:block; margin-left:auto; margin-right:auto"}
+<div style=" 
+    display:block;
+    float:none;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    text-align: center;
+    ">
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basecheckbox1.png?raw=true" alt='base-image' />
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basecheckbox2.png?raw=true" alt='base-image' />
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basecheckbox3.png?raw=true" alt='base-image' />
+</div>
 
 ## 3️⃣ BaseTextArea
 
@@ -91,8 +102,10 @@
     :autoResize="false"
 />
 ```
+
 # demo
-  ![base-image](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basetextarea.png?raw=true){:style="display:block; margin-left:auto; margin-right:auto"}
+
+![base-image](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basetextarea.png?raw=true){:style="display:block; margin-left:auto; margin-right:auto"}
 
 ## 4️⃣
 
