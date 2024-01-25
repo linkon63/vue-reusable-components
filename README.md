@@ -241,7 +241,7 @@ interface Props {
 </div>
 <div style="text-align:center;">
 <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/multiselect-dropdown-reusable-component-5/public/img/dd3.png?raw=true" alt='base-image'
-style="width:45%"
+style="width:48%"
 />
 </div>
 
