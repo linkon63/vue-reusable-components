@@ -167,6 +167,7 @@ interface Props {
     align-items:center;
     width:100%;
     text-align:center;
+    height: 300px;
     ">
     <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/dropdown-select-reusable-component-4/public/img/basedropdown1.png?raw=true" alt='base-image'
     style="width:48%"
@@ -248,10 +249,10 @@ interface Props {
     "
     >
 <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/multiselect-dropdown-reusable-component-5/public/img/dd3.png?raw=true" alt='base-image'
-style="width:48%"
+style="width:48%; height: 350px"
 />
 <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/multiselect-dropdown-reusable-component-5/public/img/dd5.png?raw=true" alt='base-image'
-style="width:48%"
+style="width:48%; height: 350px"
 />
 </div>
 
