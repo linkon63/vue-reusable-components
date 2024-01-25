@@ -176,7 +176,69 @@ interface Props {
      />
 </div>
 
-## 5️⃣
+## 5️⃣ BaseDropDown
+
+```js
+// component import
+<BaseDropDown />
+/* props you can pass in <BaseDropDown />
+interface Props {
+  label?: string;
+  labelClass?: string;
+  class?: string;
+  dropdownClass?: string;
+}
+*/
+// example
+ <BaseDropDown
+      label="Multi Select Drop Down"
+      labelClass="bg-green-400 hover:bg-green-500"
+      class="bg-gray-200"
+      dropdown-class="p-0"
+    >
+      <template #rightIcon>
+        <svg
+          class="w-2.5 h-2.5 ms-3"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 10 6"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="m1 1 4 4 4-4"
+          />
+        </svg>
+      </template>
+      <template #dropdownItems>
+        <div class="ps-4">
+          <BaseCheckbox label="React" />
+          <BaseCheckbox label="Vue" />
+          <BaseCheckbox label="Laravel" />
+        </div>
+      </template>
+    </BaseDropDown>
+```
+
+# demo
+
+<div style=" 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    text-align:center;
+    ">
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/multiselect-dropdown-select-reusable-component-5/public/img/dd1.png?raw=true" alt='base-image'
+    style="width:48%"
+     />
+     <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/multiselect-dropdown-select-reusable-component-5/public/img/dd2.png?raw=true" alt='base-image'
+    style="width:48%"
+     />
+</div>
 
 ## 6️⃣
 
