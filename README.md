@@ -239,8 +239,15 @@ interface Props {
     style="width:48%"
      />
 </div>
-<div style="text-align:center;">
+<div style="display: flex;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    text-align:center;">
 <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/multiselect-dropdown-reusable-component-5/public/img/dd3.png?raw=true" alt='base-image'
+style="width:48%"
+/>
+<img src="https://github.com/linkon63/vue-reusable-components/blob/feature/multiselect-dropdown-reusable-component-5/public/img/dd4.png?raw=true" alt='base-image'
 style="width:48%"
 />
 </div>
