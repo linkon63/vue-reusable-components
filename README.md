@@ -1,14 +1,36 @@
 # Vue reusable components
+#### Vue reusable components are there where you can import the component and pass the props for customization..
+```bash
+$ git clone https://github.com/linkon63/vue-reusable-components/tree/main
+$ npm install
+$ npm run dev
+```
+```bash
+📑 note : there is reusable-component-playground file, where you can check the components and test and also explore every components 🌀.
+```
 
 ## 1️⃣ BaseInput
-
+#### it is for all the "text" | "number" | "phone" | "email" | "tel" | "search"
 ```js
 // component import
 <BaseInput />
 /* props you can pass in <BaseInput />
-     type,placeholder,labelClass,css,disable,required,size, maxLength,maxLength,regExpForInput,validationMessage,validationMessageStyle,validationMessage,validationStatus,autoFocus,title
+     type,
+     placeholder,
+     labelClass,
+     disable,
+     required,
+     size, 
+     maxLength,
+     maxLength,
+     regExpForInput,
+     validationMessage,
+     validationMessageStyle,
+     validationMessage,
+     validationStatus,
+     autoFocus,
+     title
      */
-// Types are : "text" | "number" | "phone" | "email" | "tel" | "search";
 //Example: You can pass slots #prefix and #suffix
      <BaseInput>
         <template #suffix>
@@ -19,7 +41,7 @@
       </BaseInput>
 ```
 
-# demo
+### demo
 
 <div style=" 
     display:block;
@@ -63,7 +85,7 @@
 
 ```
 
-# demo
+### demo
 
 <div style=" 
     display:block;
@@ -109,7 +131,7 @@
 />
 ```
 
-# demo
+### demo
 
 <div style=" 
     display:block;
@@ -159,18 +181,17 @@ interface Props {
   />
 ```
 
-# demo
+### demo
 
 <div style=" 
     display: flex;
     justify-content: center;
     align-items:center;
     width:100%;
-    text-align:center;
     height: 300px;
     ">
     <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/dropdown-select-reusable-component-4/public/img/basedropdown1.png?raw=true" alt='base-image'
-    style="width:48%"
+    style="width:48%; width:350px"
      />
      <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/dropdown-select-reusable-component-4/public/img/basedropdown2.png?raw=true" alt='base-image'
     style="width:48%"
@@ -224,7 +245,7 @@ interface Props {
     </BaseDropDown>
 ```
 
-# demo
+### demo
 
 <div style=" 
     display: flex;
