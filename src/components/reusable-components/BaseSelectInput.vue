@@ -43,7 +43,7 @@ interface Props {
   label?: string;
   labelClass?: string;
   class?: string;
-  optionClass: string;
+  optionClass?: string;
   name?: string;
   disabled?: boolean;
   required?: boolean;
