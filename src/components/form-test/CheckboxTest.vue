@@ -141,7 +141,7 @@
   <p>V-Model 1: {{ inputBox1 }}</p>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { reactive, ref, watch } from "vue";
 import BaseInput from "../reusable-components/BaseInput.vue";
 import BaseCheckbox from "../reusable-components/BaseCheckbox.vue";
