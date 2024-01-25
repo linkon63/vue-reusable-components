@@ -81,10 +81,11 @@ $ npm run dev
     }"
     />
 // Example: You can pass slots #inside
-// 📝 When you pass #inside slot then in class props given hidden class="hidden"
 
 ```
-
+```bash
+📑 note :  When you pass #inside slot then in class props given hidden class="hidden"
+```
 ### demo
 
 <div style=" 
