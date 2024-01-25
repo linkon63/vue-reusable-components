@@ -319,17 +319,14 @@ interface Props {
 ### demo
 
 <div style=" 
-    display: flex;
-    justify-content: center;
-    align-items:center;
     width:100%;
     text-align:center;
     ">
     <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/radio-button-reusable-component-6/public/img/rd1.png?raw=true" alt='base-image'
-    style="width:45%; margin: 10px"
+    style="width:100%; margin: 10px"
      />
      <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/radio-button-reusable-component-6/public/img/rd2.png?raw=true" alt='base-image'
-    style="width:45%; margin: 10px"
+    style="width:100%; margin: 10px"
      />
 </div>
 
