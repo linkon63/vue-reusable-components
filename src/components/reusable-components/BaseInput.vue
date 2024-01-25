@@ -29,7 +29,6 @@
       v-if="validationStatus"
       class="mt-2 text-sm"
       :class="validationMessageStyle"
-      :style="validationCustomCss"
     >
       {{ validationMessage }}
     </p>
@@ -54,7 +53,6 @@ interface Props {
   validationStatus?: boolean;
   validationMessage?: string;
   validationMessageStyle?: string;
-  validationCustomCss?: string;
   autoFocus?: boolean;
 }
 withDefaults(defineProps<Props>(), {
@@ -71,7 +69,6 @@ withDefaults(defineProps<Props>(), {
   regExpForInput: "",
   validationMessage: "Somethings went wrong !",
   validationMessageStyle: "",
-  validationCustomCss: "",
   validationStatus: false,
   autoFocus: false,
   title: "",
