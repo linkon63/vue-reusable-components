@@ -18,6 +18,12 @@
         </template>
       </BaseInput>
 ```
+# demo
+![BaseTextArea](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/baseinputbox.png?raw=true)
+
+![BaseTextArea](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/baseinputbox2.png?raw=true)
+
+![BaseTextArea](https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/baseinputbox3.png?raw=true)
 
 ## 2️⃣ BaseCheckbox
 
