@@ -124,7 +124,57 @@
      />
 </div>
 
-## 4️⃣
+## 4️⃣ BaseSelectInput
+
+```js
+// component import
+<BaseSelectInput />
+/* props you can pass in <BaseSelectInput />
+interface IOption {
+  id?: number | string;
+  name?: string;
+  value?: string | number;
+}
+interface Props {
+  label?: string;
+  labelClass?: string;
+  class?: string;
+  optionClass: string;
+  name?: string;
+  disabled?: boolean;
+  required?: boolean;
+  optionLabel?: string;
+  options?: IOption[] | null;
+  hideDefaultChooseOption: boolean;
+}
+*/
+
+// example
+ <BaseSelectInput
+    v-model="message"
+    :options="options"
+    option-class="bg-red-500"
+    :hide-default-choose-option="true"
+    optionLabel="Your status"
+  />
+```
+
+# demo
+
+<div style=" 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    text-align:center;
+    ">
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/dropdown-select-reusable-component-4/public/img/basedropdown1.png?raw=true" alt='base-image'
+    style="width:48%"
+     />
+     <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/dropdown-select-reusable-component-4/public/img/basedropdown2.png?raw=true" alt='base-image'
+    style="width:48%"
+     />
+</div>
 
 ## 5️⃣
 
