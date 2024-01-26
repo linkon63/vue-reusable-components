@@ -1,14 +1,36 @@
 # Vue reusable components
+#### Vue reusable components are there where you can import the component and pass the props for customization..
+```bash
+$ git clone https://github.com/linkon63/vue-reusable-components/tree/main
+$ npm install
+$ npm run dev
+```
+```bash
+📑 note : there is reusable-component-playground file, where you can check the components and test and also explore every components 🌀.
+```
 
 ## 1️⃣ BaseInput
-
+#### it is for all the "text" | "number" | "phone" | "email" | "tel" | "search"
 ```js
 // component import
 <BaseInput />
 /* props you can pass in <BaseInput />
-     type,placeholder,labelClass,css,disable,required,size, maxLength,maxLength,regExpForInput,validationMessage,validationMessageStyle,validationMessage,validationStatus,autoFocus,title
+     type,
+     placeholder,
+     labelClass,
+     disable,
+     required,
+     size, 
+     maxLength,
+     maxLength,
+     regExpForInput,
+     validationMessage,
+     validationMessageStyle,
+     validationMessage,
+     validationStatus,
+     autoFocus,
+     title
      */
-// Types are : "text" | "number" | "phone" | "email" | "tel" | "search";
 //Example: You can pass slots #prefix and #suffix
      <BaseInput>
         <template #suffix>
@@ -19,7 +41,7 @@
       </BaseInput>
 ```
 
-# demo
+### demo
 
 <div style=" 
     display:block;
@@ -59,11 +81,12 @@
     }"
     />
 // Example: You can pass slots #inside
-// 📝 When you pass #inside slot then in class props given hidden class="hidden"
 
 ```
-
-# demo
+```bash
+📑 note :  When you pass #inside slot then in class props given hidden class="hidden"
+```
+### demo
 
 <div style=" 
     display:block;
@@ -109,7 +132,7 @@
 />
 ```
 
-# demo
+### demo
 
 <div style=" 
     display:block;
@@ -159,7 +182,71 @@ interface Props {
   />
 ```
 
-# demo
+### demo
+
+<div style=" 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    height: 300px;
+    ">
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/dropdown-select-reusable-component-4/public/img/basedropdown1.png?raw=true" alt='base-image'
+    style="width:48%; width:350px"
+     />
+     <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/dropdown-select-reusable-component-4/public/img/basedropdown2.png?raw=true" alt='base-image'
+    style="width:48%"
+     />
+</div>
+
+## 5️⃣ BaseDropDown
+
+```js
+// component import
+<BaseDropDown />
+/* props you can pass in <BaseDropDown />
+interface Props {
+  label?: string;
+  labelClass?: string;
+  class?: string;
+  dropdownClass?: string;
+}
+*/
+// example
+ <BaseDropDown
+      label="Multi Select Drop Down"
+      labelClass="bg-green-400 hover:bg-green-500"
+      class="bg-gray-200"
+      dropdown-class="p-0"
+    >
+      <template #rightIcon>
+        <svg
+          class="w-2.5 h-2.5 ms-3"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 10 6"
+        >
+          <path
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="m1 1 4 4 4-4"
+          />
+        </svg>
+      </template>
+      <template #dropdownItems>
+        <div class="ps-4">
+          <BaseCheckbox label="React" />
+          <BaseCheckbox label="Vue" />
+          <BaseCheckbox label="Laravel" />
+        </div>
+      </template>
+    </BaseDropDown>
+```
+
+### demo
 
 <div style=" 
     display: flex;
@@ -168,15 +255,28 @@ interface Props {
     width:100%;
     text-align:center;
     ">
-    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/dropdown-select-reusable-component-4/public/img/basedropdown1.png?raw=true" alt='base-image'
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/multiselect-dropdown-reusable-component-5/public/img/dd1.png?raw=true" alt='base-image'
     style="width:48%"
      />
-     <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/dropdown-select-reusable-component-4/public/img/basedropdown2.png?raw=true" alt='base-image'
+     <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/multiselect-dropdown-reusable-component-5/public/img/dd2.png?raw=true" alt='base-image'
     style="width:48%"
      />
 </div>
-
-## 5️⃣
+<div style="display: flex;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    text-align:center;
+    height: 400px;
+    "
+    >
+<img src="https://github.com/linkon63/vue-reusable-components/blob/feature/multiselect-dropdown-reusable-component-5/public/img/dd3.png?raw=true" alt='base-image'
+style="width:48%; height: 350px"
+/>
+<img src="https://github.com/linkon63/vue-reusable-components/blob/feature/multiselect-dropdown-reusable-component-5/public/img/dd5.png?raw=true" alt='base-image'
+style="width:48%; height: 350px"
+/>
+</div>
 
 ## 6️⃣
 
