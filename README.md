@@ -339,8 +339,10 @@ interface Props {
 /* props you can pass in <BaseButton />
 interface Props {
   class?: string;
+  loadingClass?: string;
   name?: string;
   disabled?: boolean;
+  loading?: boolean;
 }
 */
 // example
