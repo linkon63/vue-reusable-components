@@ -5,7 +5,7 @@ import BaseRadioVue from "./components/reusable-components/BaseRadio.vue";
 import BaseSelectInputVue from "./components/reusable-components/BaseSelectInput.vue";
 import BaseTextAreaVue from "./components/reusable-components/BaseTextArea.vue";
 
-export {
+export default {
   BaseCheckboxVue,
   BaseDropDownVue,
   BaseInput,

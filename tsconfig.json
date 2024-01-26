@@ -1,0 +1,5 @@
+{
+  "outDir": "dist",
+  "declaration": false,
+  "exclude": ["src/App.vue", "src/main.ts"]
+}
