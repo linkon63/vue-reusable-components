@@ -36,7 +36,6 @@ $ npm run dev
      autoFocus,
      title
      */
-//Example: You can pass slots #prefix and #suffix
      <BaseInput>
         <template #suffix>
           <button>
@@ -44,6 +43,10 @@ $ npm run dev
           </button>
         </template>
       </BaseInput>
+```
+
+```bash
+📑 note : You can pass slots #prefix and #suffix
 ```
 
 ### demo
@@ -85,12 +88,10 @@ $ npm run dev
     }
     }"
     />
-// Example: You can pass slots #inside
-
 ```
 
 ```bash
-📑 note :  When you pass #inside slot then in class props given hidden class="hidden"
+📑 note : You can pass slots #inside but When you pass #inside slot then in class props given hidden class="hidden"
 ```
 
 ### demo
@@ -370,6 +371,10 @@ interface Props {
 </BaseButton>
 ```
 
+```bash
+📑 note :You can pass slots #prefix
+```
+
 ### demo
 
 <div style=" 
@@ -383,6 +388,7 @@ interface Props {
     style="width:100%; margin: 10px"
      />
 </div>
+
 ## 8️⃣
 
 ## 9️⃣
