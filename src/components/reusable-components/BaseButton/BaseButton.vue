@@ -6,8 +6,10 @@
     :disabled="disabled"
     @click="click"
   >
+    <slot name="customPrefix" />
     <slot name="prefix" />
     {{ name }}
+    <slot name="customSuffix" />
     <svg
       v-if="loading"
       aria-hidden="true"

@@ -374,7 +374,7 @@ interface Props {
 ```
 
 ```bash
-📑 note :You can pass slots #prefix
+📑 note :You can pass slots #prefix and #customPrefix and #customSuffix also #suffix
 ```
 
 ### demo
