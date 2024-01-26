@@ -4,11 +4,11 @@
       class="bg-gray-900 bg-opacity-50 dark:bg-opacity-80 fixed inset-0 z-40"
     />
     <div
-      ref="modalRef"
+      ref="modRef"
       class="overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full justify-center items-center flex"
       tabindex="0"
-      @click.self="clickOutside"
-      @keyup.esc="closeWithEsc"
+      @click.self="clickOutsideOfModal"
+      @keyup.esc="closeWithEscKey"
     >
       <div
         :class="`${modalSizeClasses[size]}`"
@@ -100,20 +100,20 @@ const modalSizeClasses = {
 function closeModal() {
   emit("close");
 }
-function clickOutside() {
+function clickOutsideOfModal() {
   if (!props.persistent) {
     emit("click:outside");
     closeModal();
   }
 }
 
-function closeWithEsc() {
+function closeWithEscKey() {
   if (!props.notEscapable && !props.persistent) closeModal();
 }
-const modalRef: Ref<HTMLElement | null> = ref(null);
+const modRef: Ref<HTMLElement | null> = ref(null);
 onMounted(() => {
-  if (modalRef.value) {
-    modalRef.value.focus();
+  if (modRef.value) {
+    modRef.value.focus();
   }
 });
 </script>
