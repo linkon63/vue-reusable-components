@@ -387,6 +387,9 @@ interface Props {
      <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/button-reusable-component-7/public/img/btn2.png?raw=true" alt='base-image'
     style="width:100%; margin: 10px"
      />
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/button-reusable-component-7/public/img/btn3.png?raw=true" alt='base-image'
+    style="width:100%; margin: 10px"
+     />
 </div>
 
 ## 8️⃣
