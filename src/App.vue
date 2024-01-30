@@ -5,5 +5,5 @@
   <h1>Library Testing v-2</h1>
 </template>
 <script setup lang="ts">
-import { BaseInput, BaseCheckbox } from "vue-reusable-components";
+import { BaseInput, BaseCheckbox } from "@vue-resuable-components";
 </script>
