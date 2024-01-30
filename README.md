@@ -394,7 +394,7 @@ interface Props {
      />
 </div>
 
-## 8️⃣
+## 8️⃣ Base Modal
 
 ## 9️⃣
 
