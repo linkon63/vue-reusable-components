@@ -1,8 +1,11 @@
 {
   "name": "vue-reusable-components",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
+  "files": [
+    "dist"
+  ],
   "main": "./dist/vue-reusable-components.umd.cjs",
   "module": "./dist/vue-reusable-components.js",
   "exports": {
@@ -15,6 +18,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && vue-tsc --emitDeclarationOnly",
+    "types": "vue-tsc ",
     "preview": "vite preview"
   },
   "dependencies": {
