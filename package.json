@@ -1,7 +1,7 @@
 {
   "name": "vue-reusable-components",
   "private": false,
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "main": "./dist/vue-reusable-components.umd.cjs",
   "module": "./dist/vue-reusable-components.js",
