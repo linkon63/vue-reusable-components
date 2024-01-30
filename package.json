@@ -1,7 +1,7 @@
 {
   "name": "vue-reusable-components",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "main": "./dist/vue-reusable-components.umd.cjs",
   "module": "./dist/vue-reusable-components.js",
@@ -39,5 +39,10 @@
   "bugs": {
     "url": "https://github.com/linkon63/vue-reusable-components/issues"
   },
-  "homepage": "https://github.com/linkon63/vue-reusable-components#readme"
+  "homepage": "https://github.com/linkon63/vue-reusable-components#readme",
+  "keywords": [
+    "vue",
+    "node",
+    "frontend"
+  ]
 }
