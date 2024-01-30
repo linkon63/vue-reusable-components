@@ -1,5 +1,6 @@
 <template class="w-full">
-  <BaseModalTest />
+  <BaseModal />
+  <!-- <BaseModalTest /> -->
   <!-- <ButtonTest /> -->
   <!-- <RadioboxTest /> -->
   <!-- <SelectInputTest /> -->
@@ -8,6 +9,7 @@
   <!-- <InputBoxTest /> -->
 </template>
 <script setup lang="ts">
+import { BaseModal } from "vue-reusable-components";
 import BaseModalTest from "./components/reusable-component-playground/BaseModalTest.vue";
 import ButtonTest from "./components/reusable-component-playground/ButtonTest.vue";
 import RadioboxTest from "./components/reusable-component-playground/RadioboxTest.vue";
