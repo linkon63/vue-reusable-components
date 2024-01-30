@@ -7,10 +7,8 @@ export default defineConfig({
   build: {
     lib: {
       // src/index.ts is where we have exported the component(s)
-      emptyOurDist: false,
       entry: resolve(__dirname, "src/index.ts"),
       name: "VueReusableComponents",
-      formats: ["es"],
       // the name of the output files when the build is run
       fileName: "vue-reusable-components",
     },

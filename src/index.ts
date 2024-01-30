@@ -7,7 +7,7 @@ import BaseTextAreaVue from "./components/reusable-components/BaseTextArea.vue";
 import BaseButtonVue from "./components/reusable-components/BaseButton/BaseButton.vue";
 import BaseModalVue from "./components/reusable-components/BaseModal/BaseModal.vue";
 
-export default {
+const components = {
   BaseInput,
   BaseCheckboxVue,
   BaseTextAreaVue,
@@ -16,4 +16,15 @@ export default {
   BaseRadioVue,
   BaseButtonVue,
   BaseModalVue,
+};
+
+const install = (Vue) => {
+  Object.keys(components).forEach((name) => {
+    Vue.component(name, components[name]);
+  });
+};
+
+export default {
+  install,
+  ...components,
 };
