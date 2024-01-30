@@ -1,16 +1,21 @@
 # Vue reusable components
+
 #### Vue reusable components are there where you can import the component and pass the props for customization..
+
 ```bash
 $ git clone https://github.com/linkon63/vue-reusable-components/tree/main
 $ npm install
 $ npm run dev
 ```
+
 ```bash
 📑 note : there is reusable-component-playground file, where you can check the components and test and also explore every components 🌀.
 ```
 
 ## 1️⃣ BaseInput
+
 #### it is for all the "text" | "number" | "phone" | "email" | "tel" | "search"
+
 ```js
 // component import
 <BaseInput />
@@ -20,7 +25,7 @@ $ npm run dev
      labelClass,
      disable,
      required,
-     size, 
+     size,
      maxLength,
      maxLength,
      regExpForInput,
@@ -83,9 +88,11 @@ $ npm run dev
 // Example: You can pass slots #inside
 
 ```
+
 ```bash
 📑 note :  When you pass #inside slot then in class props given hidden class="hidden"
 ```
+
 ### demo
 
 <div style=" 
@@ -278,7 +285,50 @@ style="width:48%; height: 350px"
 />
 </div>
 
-## 6️⃣
+## 6️⃣ BaseRadio
+
+```js
+// component import
+<BaseRadio />
+/* props you can pass in <BaseRadio />
+interface Props {
+  label?: string;
+  labelClass?: string;
+  class?: string;
+  checked?: boolean;
+  name?: string;
+  disabled?: boolean;
+  value?: string | number | boolean;
+}
+*/
+// example
+    <BaseRadio
+      label="Yes"
+      v-model="radio"
+      value="yes"
+      label-class="bg-green-500 text-white px-6 w-[10%]"
+    />
+    <BaseRadio
+      label="No"
+      v-model="radio"
+      value="no"
+      label-class="bg-red-500 text-white px-6 w-[10%]"
+    />
+```
+
+### demo
+
+<div style=" 
+    width:100%;
+    text-align:center;
+    ">
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/radio-button-reusable-component-6/public/img/rd1.png?raw=true" alt='base-image'
+    style="width:100%; margin: 10px"
+     />
+     <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/radio-button-reusable-component-6/public/img/rd2.png?raw=true" alt='base-image'
+    style="width:100%; margin: 10px"
+     />
+</div>
 
 ## 7️⃣
 
