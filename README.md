@@ -22,7 +22,7 @@ then install vue-reusable-components
 $ npm i vue-reusable-components
 ```
 
-## 1️⃣ BaseInput
+#### 1️⃣ BaseInput
 
 #### it is for all the "text" | "number" | "phone" | "email" | "tel" | "search"
 
@@ -74,7 +74,7 @@ $ npm i vue-reusable-components
     <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/baseinputbox3.png?raw=true" alt='base-image'  style="width:100%" />
 </div>
 
-## 2️⃣ BaseCheckbox
+#### 2️⃣ BaseCheckbox
 
 ```js
 // component import
@@ -119,7 +119,7 @@ $ npm i vue-reusable-components
     <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basecheckbox3.png?raw=true" alt='base-image'  style="width:100%" />
 </div>
 
-## 3️⃣ BaseTextArea
+#### 3️⃣ BaseTextArea
 
 ```js
 // component import
@@ -165,7 +165,7 @@ $ npm i vue-reusable-components
      />
 </div>
 
-## 4️⃣ BaseSelectInput
+#### 4️⃣ BaseSelectInput
 
 ```js
 // component import
@@ -217,7 +217,7 @@ interface Props {
      />
 </div>
 
-## 5️⃣ BaseDropDown
+#### 5️⃣ BaseDropDown
 
 ```js
 // component import
@@ -296,7 +296,7 @@ style="width:48%; height: 350px"
 />
 </div>
 
-## 6️⃣ BaseRadio
+#### 6️⃣ BaseRadio
 
 ```js
 // component import
@@ -341,7 +341,7 @@ interface Props {
      />
 </div>
 
-## 7️⃣ BaseButton
+#### 7️⃣ BaseButton
 
 ```js
 // component import
@@ -404,7 +404,7 @@ interface Props {
      />
 </div>
 
-## 8️⃣ Base Modal
+#### 8️⃣ Base Modal
 
 ```js
 // component import
@@ -471,7 +471,7 @@ const modal = ref(false);
      />
 </div>
 
-## 9️⃣ Base Toggle
+#### 9️⃣ Base Toggle
 ```js
 // component import
 <BaseToggle />
@@ -520,4 +520,3 @@ interface Props {
 </div>
 
 
-## 🔟
