@@ -549,7 +549,9 @@ label?: string;
       </template>
     </BaseChips>
 ```
-
+```bash
+📑 note :You can pass slots #prefix and #suffix
+```
 ### demo
 
 <div style=" 
