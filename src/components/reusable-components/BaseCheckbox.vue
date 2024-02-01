@@ -54,10 +54,10 @@ const emit = defineEmits<{
   (e: "onChange", event: Event): void;
 }>();
 
-const click = (e: Event) => {
+const click = (e: Event): void => {
   emit("onClick", e);
 };
-const changes = (e: Event) => {
+const changes = (e: Event): void => {
   emit("onChange", e);
 };
 </script>
