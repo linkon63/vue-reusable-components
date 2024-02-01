@@ -1,5 +1,7 @@
 <template class="w-full">
-  <BaseModalTest />
+  <h1>Testing Components from here</h1>
+  <BaseToggle />
+  <!-- <BaseModalTest /> -->
   <!-- <ButtonTest /> -->
   <!-- <RadioboxTest /> -->
   <!-- <SelectInputTest /> -->
@@ -14,4 +16,5 @@ import RadioboxTest from "./components/reusable-component-playground/RadioboxTes
 import SelectInputTest from "./components/reusable-component-playground/SelectInputTest.vue";
 import TextAreaTest from "./components/reusable-component-playground/TextAreaTest.vue";
 import BaseTextArea from "./components/reusable-components/BaseTextArea.vue";
+import BaseToggle from "./components/reusable-components/BaseToggle/BaseToggle.vue";
 </script>
