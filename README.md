@@ -1,6 +1,6 @@
-# Vue reusable components
+### Vue reusable components
 
-#### Vue reusable components are there where you can import the component and pass the props for customization..
+#### | Vue reusable components are there where you can import the component and pass the props for customization..
 
 ```bash
 $ git clone https://github.com/linkon63/vue-reusable-components/tree/main
@@ -10,6 +10,16 @@ $ npm run dev
 
 ```bash
 📑 note : there is reusable-component-playground file, where you can check the components and test and also explore every components 🌀.
+```
+
+# Pre-requisites
+```bash
+Install Tailwind for use this library
+Link : https://tailwindcss.com/docs/installation
+
+then install vue-reusable-components
+
+$ npm i vue-reusable-components
 ```
 
 ## 1️⃣ BaseInput
