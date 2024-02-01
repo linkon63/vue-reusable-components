@@ -12,7 +12,7 @@
       type="button"
       class="inline-flex items-center p-1 ms-2 text-sm text-blue-400 bg-transparent rounded-sm hover:bg-blue-200 hover:text-blue-900 dark:hover:bg-blue-800 dark:hover:text-blue-300"
       :class="removeButtonClass"
-      v-if="removeButton"
+      v-if="!removeButton"
       @click="click"
     >
       <svg
@@ -48,7 +48,7 @@ withDefaults(defineProps<Props>(), {
   label: "Default",
   labelClass: "",
   class: "",
-  removeButton: true,
+  removeButton: false,
   removeButtonClass: "",
   visibility: true,
 });
