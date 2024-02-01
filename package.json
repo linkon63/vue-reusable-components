@@ -12,7 +12,8 @@
     "flowbite": "^2.2.1",
     "flowbite-vue": "^0.1.2",
     "kon-component-lib": "^6.0.0",
-    "vue": "^3.3.11"
+    "vue": "^3.3.11",
+    "vue-reusable-components": "^1.0.9"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",
