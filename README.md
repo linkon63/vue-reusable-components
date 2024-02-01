@@ -1,6 +1,6 @@
-# Vue reusable components
+### Vue reusable components
 
-#### Vue reusable components are there where you can import the component and pass the props for customization..
+#### | Vue reusable components are there where you can import the component and pass the props for customization..
 
 ```bash
 $ git clone https://github.com/linkon63/vue-reusable-components/tree/main
@@ -10,6 +10,16 @@ $ npm run dev
 
 ```bash
 📑 note : there is reusable-component-playground file, where you can check the components and test and also explore every components 🌀.
+```
+
+# Pre-requisites
+```bash
+Install Tailwind for use this library
+Link : https://tailwindcss.com/docs/installation
+
+then install vue-reusable-components
+
+$ npm i vue-reusable-components
 ```
 
 ## 1️⃣ BaseInput
@@ -461,6 +471,53 @@ const modal = ref(false);
      />
 </div>
 
-## 9️⃣
+## 9️⃣ Base Toggle
+```js
+// component import
+<BaseToggle />
+/* props you can pass in <BaseToggle />
+interface Props {
+  disabled?: boolean;
+  checked?: boolean;
+  label?: string;
+  labelClasses?: string;
+  toggleClasses?: string;
+  toggleBallClasses?: string;
+  modelValue?: boolean;
+  size?: string;
+  name?: string;
+  required?: boolean;
+}
+*/
+// example
+    <BaseToggle
+      label="Hello Toggle"
+      toggle-classes="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4 peer-focus:ring-red-300 dark:peer-focus:ring-red-800 dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-red-600"
+      toggle-ball-classes="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300"
+    />
+    <BaseToggle
+      label="Sound"
+      toggle-classes="w-11 h-6 bg-gray-200 rounded-full peer peer-focus:ring-4 peer-focus:ring-red-300 dark:peer-focus:ring-red-800 dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-red-600"
+      toggle-ball-classes="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300"
+    >
+      <template #labelPrefix>📢</template>
+    </BaseToggle>
+  </div>
+```
+
+### demo
+
+<div style=" 
+    width:100%;
+    text-align:center;
+    ">
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/basetogglebutton-reusable-component-9/public/img/btoggle1.png?raw=true" alt='base-image'
+    style="width:100%; margin: 10px"
+     />
+     <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/basetogglebutton-reusable-component-9/public/img/btoggle2.png?raw=true" alt='base-image'
+    style="width:100%; margin: 10px"
+     />
+</div>
+
 
 ## 🔟

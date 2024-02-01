@@ -68,12 +68,11 @@
 
 <script lang="ts" setup>
 import { onMounted, ref, type Ref } from "vue";
-import type { ModalSize } from "./types";
 
 interface ModalProps {
   notEscapable?: boolean;
   persistent?: boolean;
-  size?: ModalSize;
+  size?: string;
 }
 
 const props = withDefaults(defineProps<ModalProps>(), {
