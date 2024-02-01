@@ -1,6 +1,6 @@
 {
   "name": "vue-reusable-components",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "type": "module",
   "files": [
     "dist"
@@ -45,5 +45,16 @@
     "Responsive Design",
     "Customizable",
     "Vue Components"
-  ]
+  ],
+  "description": "#### | Vue reusable components are there where you can import the component and pass the props for customization..",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linkon63/vue-reusable-components.git"
+  },
+  "author": "linkon63",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linkon63/vue-reusable-components/issues"
+  },
+  "homepage": "https://github.com/linkon63/vue-reusable-components#readme"
 }
