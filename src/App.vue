@@ -1,15 +1,19 @@
-<template class="w-full">
-  <h1>Library Testing v-1</h1>
-  <FButton>
-    <template>
-      Hello
-    </template>
-  </FButton>
-  <!-- <BaseInput />
-  <BaseCheckbox /> -->
-  <h1>Library Testing v-2</h1>
+<template>
+  <div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, illum!
+    </p>
+    <KButton class="bg-red-500"> ABCD </KButton>
+    <br />
+    kIcon start
+    <KIcon>Bro</KIcon>
+    kIcon end
+    <!-- <KCIcon>Global</KCIcon> -->
+    <br />
+    Other content of your component
+  </div>
 </template>
-<script setup lang="ts">
-import FButton from "kon63lib";
-// import { BaseInput, BaseCheckbox } from "@vue-resuable-components";
+
+<script setup>
+import { KButton, KIcon } from "kon-components";
 </script>

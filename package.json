@@ -11,7 +11,8 @@
   "dependencies": {
     "flowbite": "^2.2.1",
     "flowbite-vue": "^0.1.2",
-    "kon63lib": "^0.1.0",
+    "kon-components": "^1.4.0",
+    "kon63lib": "^3.0.0",
     "vue": "^3.3.11",
     "vue-reusable-components": "^1.0.4"
   },
