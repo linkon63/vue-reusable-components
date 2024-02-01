@@ -1,23 +1,39 @@
 {
   "name": "vue-reusable-components",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.9",
   "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vue-reusable-components.umd.cjs",
+  "module": "./dist/vue-reusable-components.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-reusable-components.js",
+      "require": "./dist/vue-reusable-components.umd.cjs"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && vue-tsc --emitDeclarationOnly",
+    "types": "vue-tsc ",
     "preview": "vite preview"
   },
   "dependencies": {
     "flowbite": "^2.2.1",
     "flowbite-vue": "^0.1.2",
-    "vue": "^3.3.11"
+    "vue": "^3.2.47"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.5.2",
+    "@types/node": "^20.2.5",
+    "@vitejs/plugin-vue": "^4.2.3",
     "autoprefixer": "^10.4.17",
     "postcss": "^8.4.33",
     "tailwindcss": "^3.4.1",
-    "vite": "^5.0.8"
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vue-tsc": "^1.8.27"
   }
 }
