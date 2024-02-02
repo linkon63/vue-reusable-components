@@ -22,7 +22,7 @@ then install vue-reusable-components
 $ npm i vue-reusable-components
 ```
 
-#### 1️⃣ BaseInput
+## 1 BaseInput
 
 #### it is for all the "text" | "number" | "phone" | "email" | "tel" | "search"
 
@@ -74,7 +74,7 @@ $ npm i vue-reusable-components
     <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/baseinputbox3.png?raw=true" alt='base-image'  style="width:100%" />
 </div>
 
-#### 2️⃣ BaseCheckbox
+## 2️ BaseCheckbox
 
 ```js
 // component import
@@ -119,7 +119,7 @@ $ npm i vue-reusable-components
     <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basecheckbox3.png?raw=true" alt='base-image'  style="width:100%" />
 </div>
 
-#### 3️⃣ BaseTextArea
+## 3️ BaseTextArea
 
 ```js
 // component import
@@ -165,7 +165,7 @@ $ npm i vue-reusable-components
      />
 </div>
 
-#### 4️⃣ BaseSelectInput
+## 4️ BaseSelectInput
 
 ```js
 // component import
@@ -217,7 +217,7 @@ interface Props {
      />
 </div>
 
-#### 5️⃣ BaseDropDown
+## 5️ BaseDropDown
 
 ```js
 // component import
@@ -296,7 +296,7 @@ style="width:48%; height: 350px"
 />
 </div>
 
-#### 6️⃣ BaseRadio
+## 6️ BaseRadio
 
 ```js
 // component import
@@ -341,7 +341,7 @@ interface Props {
      />
 </div>
 
-#### 7️⃣ BaseButton
+## 7️ BaseButton
 
 ```js
 // component import
@@ -404,7 +404,7 @@ interface Props {
      />
 </div>
 
-#### 8️⃣ Base Modal
+## 8️ Base Modal
 
 ```js
 // component import
@@ -471,7 +471,8 @@ const modal = ref(false);
      />
 </div>
 
-#### 9️⃣ Base Toggle
+## 9️ Base Toggle
+
 ```js
 // component import
 <BaseToggle />
@@ -519,4 +520,103 @@ interface Props {
      />
 </div>
 
+## 10 Base Chips
 
+```js
+// component import
+<BaseChips />
+/* props you can pass in <BaseChips />
+interface Props {
+label?: string;
+  labelClass?: string;
+  class?: string;
+  removeButton?: boolean;
+  removeButtonClass?: string;
+  visibility?: boolean;
+}
+*/
+// example
+    <BaseChips />
+    <BaseChips label="Stop" :remove-button="true" label-class="bg-green-900 text-red-500">
+      <template #prefix>
+        ⛔
+      </template>
+    </BaseChips>
+    <BaseChips label="Pin" :remove-button="true">
+      <template #prefix>
+        📌
+      </template>
+    </BaseChips>
+```
+
+```bash
+📑 note :You can pass slots #prefix and #suffix
+```
+
+### demo
+
+<div style=" 
+    width:100%;
+    text-align:center;
+    ">
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/basechips-reusable-component-10/public/img/bchips1.png?raw=true" alt='base-image'
+    style="width:100%; margin: 10px"
+     />
+</div>
+
+## 11 Base Accordion
+
+```js
+// component import
+<BaseAccordion />
+/* props you can pass in <BaseAccordion />
+interface Props {
+  alwaysOpen?: boolean;
+  accordionPanelClass?: string;
+  accordionLabel?: string;
+  accordionContentClass?: string;
+  visiblePanelIcon?: boolean;
+}
+*/
+// example
+    <BaseAccordion
+      accordion-panel-class="bg-red-500 text-white w-3/12"
+      accordion-content-class="w-3/12 bg-green-600"
+      :always-open="true"
+    >
+      <template #panelPrefix>❕</template>
+      <template #panelSuffix>🚭</template>
+
+      <template #accordion-content>
+        <p class="mb-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, soluta!
+        </p>
+        <p class="">
+          Lorem ipsum dolor sit amet.
+          <a
+            href="/docs/getting-started/introduction/"
+            class="text-blue-600 dark:text-blue-500 hover:underline"
+            >Start Your Things</a
+          >
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam,
+          laborum qui! Beatae rerum cum optio asperiores, similique natus
+          sapiente odit!
+        </p>
+      </template>
+    </BaseAccordion>
+```
+
+```bash
+📑 note :You can pass slots #panelPrefix and #panelSuffix , #panelIcon ,#accordionContent
+```
+
+### demo
+
+<div style=" 
+    width:100%;
+    text-align:center;
+    ">
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/baseaccordion-reusable-component-11/public/img/baseacordion.png?raw=true" alt='base-image'
+    style="width:100%; margin: 10px"
+     />
+</div>
