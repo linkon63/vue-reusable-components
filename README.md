@@ -617,7 +617,7 @@ interface Props {
     width:100%;
     text-align:center;
     ">
-    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/baseaccordion-reusable-component-11/public/img/baseaccordion.png?raw=true" alt='base-image'
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/baseaccordion-reusable-component-11/public/img/baseacordion.png?raw=true" alt='base-image'
     style="width:100%; margin: 10px"
      />
 </div>
