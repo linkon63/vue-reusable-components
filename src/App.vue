@@ -9,7 +9,7 @@
       <template #panelPrefix>❕</template>
       <template #panelSuffix>🚭</template>
 
-      <template #accordion-content>
+      <template #accordionContent>
         <p class="mb-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, soluta!
         </p>
