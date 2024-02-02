@@ -7,6 +7,8 @@ import BaseInput from "./components/reusable-components/BaseInput.vue";
 import BaseRadio from "./components/reusable-components/BaseRadio.vue";
 import BaseSelectInput from "./components/reusable-components/BaseSelectInput.vue";
 import BaseTextArea from "./components/reusable-components/BaseTextArea.vue";
+import BaseChips from "./components/reusable-components/BaseChips/BaseChips.vue";
+import BaseAccordion from "./components/reusable-components/BaseAccordion/BaseAccordion.vue";
 
 export {
   BaseButton,
@@ -18,4 +20,6 @@ export {
   BaseTextArea,
   BaseRadio,
   BaseInput,
+  BaseChips,
+  BaseAccordion,
 };
