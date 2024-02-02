@@ -13,6 +13,7 @@ $ npm run dev
 ```
 
 # Pre-requisites
+
 ```bash
 Install Tailwind for use this library
 Link : https://tailwindcss.com/docs/installation
@@ -472,6 +473,7 @@ const modal = ref(false);
 </div>
 
 ## 9️⃣ Base Toggle
+
 ```js
 // component import
 <BaseToggle />
@@ -519,5 +521,46 @@ interface Props {
      />
 </div>
 
+## 🔟 Base Chips
 
-## 🔟
+```js
+// component import
+<BaseChips />
+/* props you can pass in <BaseChips />
+interface Props {
+label?: string;
+  labelClass?: string;
+  class?: string;
+  removeButton?: boolean;
+  removeButtonClass?: string;
+  visibility?: boolean;
+}
+*/
+// example
+    <BaseChips />
+    <BaseChips label="Stop" :remove-button="true" label-class="bg-green-900 text-red-500">
+      <template #prefix>
+        ⛔
+      </template>
+    </BaseChips>
+    <BaseChips label="Pin" :remove-button="true">
+      <template #prefix>
+        📌
+      </template>
+    </BaseChips>
+```
+```bash
+📑 note :You can pass slots #prefix and #suffix
+```
+### demo
+
+<div style=" 
+    width:100%;
+    text-align:center;
+    ">
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/basechips-reusable-component-10/public/img/bchips1.png?raw=true" alt='base-image'
+    style="width:100%; margin: 10px"
+     />
+</div>
+
+## 11 
