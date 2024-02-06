@@ -1,18 +1,3 @@
-<!-- <template>
-  <slot />
-</template>
-
-<script setup lang="ts">
-interface Props {
-  tabHeader?: string;
-  tabContent?: string;
-}
-withDefaults(defineProps<Props>(), {
-  tabHeader: "Default",
-  tabContent: "",
-});
-</script> -->
-
 <template>
   <div class="mb-4 border-b border-gray-200 dark:border-gray-700">
     <ul
@@ -29,4 +14,13 @@ withDefaults(defineProps<Props>(), {
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+interface Props {
+  name?: string;
+  content?: string;
+}
+withDefaults(defineProps<Props>(), {
+  name: "Default",
+  content: "content",
+});
+</script>
