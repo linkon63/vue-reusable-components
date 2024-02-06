@@ -1,9 +1,9 @@
 <template class="w-full">
   <h1>Testing Components from here</h1>
-  <div class="px-48">
+  <div class="px-48 w-6/12">
     <BaseAccordion
-      accordion-panel-class="bg-red-500 text-white w-3/12"
-      accordion-content-class="w-3/12 bg-green-600"
+      accordion-panel-class="bg-red-500 text-white w-6/12"
+      accordion-content-class="bg-green-600"
       :always-open="true"
     >
       <template #panelPrefix>❕</template>
