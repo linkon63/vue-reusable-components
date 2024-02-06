@@ -1,8 +1,9 @@
 <template class="w-full">
-  <CheckboxTest />
-  <InputBoxTest />
+  <TextAreaTest />
+  <!-- <CheckboxTest /> -->
+  <!-- <InputBoxTest /> -->
 </template>
 <script setup lang="ts">
-import CheckboxTest from "./components/form-test/CheckboxTest.vue";
-import InputBoxTest from "./components/form-test/InputBoxTest.vue";
+import TextAreaTest from "./components/form-test/TextAreaTest.vue";
+import BaseTextArea from "./components/reusable-components/BaseTextArea.vue";
 </script>

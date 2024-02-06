@@ -19,6 +19,21 @@
       </BaseInput>
 ```
 
+# demo
+
+<div style=" 
+    display:block;
+    float:none;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    text-align: center;
+    ">
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/baseinputbox1.png?raw=true" alt='base-image'  style="width:100%" />
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/baseinputbox2.png?raw=true" alt='base-image'   style="width:100%"/>
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/baseinputbox3.png?raw=true" alt='base-image'  style="width:100%" />
+</div>
+
 ## 2️⃣ BaseCheckbox
 
 ```js
@@ -48,11 +63,77 @@
 
 ```
 
-## 3️⃣ 
-## 4️⃣ 
-## 5️⃣ 
-## 6️⃣ 
-## 7️⃣ 
-## 8️⃣ 
-## 9️⃣ 
+# demo
+
+<div style=" 
+    display:block;
+    float:none;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    text-align: center;
+    ">
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basecheckbox1.png?raw=true" alt='base-image'  style="width:100%" />
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basecheckbox2.png?raw=true" alt='base-image'  style="width:100%" />
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basecheckbox3.png?raw=true" alt='base-image'  style="width:100%" />
+</div>
+
+## 3️⃣ BaseTextArea
+
+```js
+// component import
+<BaseTextArea />
+/* props you can pass in <BaseTextArea />
+  label?: string;
+  labelClass?: string;
+  class?: string;
+  name?: string;
+  disabled?: boolean;
+  readonly?: boolean;
+  required?: boolean;
+  rows?: string;
+  cols?: string;
+  placeholder?: string;
+  minlength?: string;
+  maxlength?: string;
+  autoResize?: boolean;
+    */
+
+// example
+<BaseTextArea
+    v-model="message"
+    placeholder="Write you message"
+    label="Your Message"
+    @on-change="(e) => console.log('changes', e.target.value)"
+    :autoResize="false"
+/>
+```
+
+# demo
+
+<div style=" 
+    display:block;
+    float:none;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    text-align: center;
+    ">
+    <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/textarea-reusable-component/public/img/basetextarea.png?raw=true" alt='base-image'
+    style="width:100%"
+     />
+</div>
+
+## 4️⃣
+
+## 5️⃣
+
+## 6️⃣
+
+## 7️⃣
+
+## 8️⃣
+
+## 9️⃣
+
 ## 🔟
