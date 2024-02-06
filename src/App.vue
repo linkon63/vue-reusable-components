@@ -1,10 +1,10 @@
 <template class="w-full">
   <h1>Testing Components from here</h1>
   <BaseTabView>
-    <!-- <BaseTabItem name="Profile" content="Hello profile it is working" />
-    <BaseTabItem name="Dashboard" content="Hello dashboard" /> -->
+    <BaseTabItem name="Profile" content="Hello profile it is working" />
+    <!-- <BaseTabItem name="Dashboard" content="Hello dashboard" /> -->
 
-    <template #tabHeader>
+    <!-- <template #tabHeader>
       <BaseTabHeader :id="id1" name="Profile" />
       <BaseTabHeader :id="id2" name="Dashboard" />
     </template>
@@ -23,8 +23,7 @@
         content=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
       voluptatem quas"
       />
-    </template>
-    
+    </template> -->
   </BaseTabView>
   <h1>Testing Components from here</h1>
 </template>

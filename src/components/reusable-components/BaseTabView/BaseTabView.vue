@@ -14,7 +14,8 @@ withDefaults(defineProps<Props>(), {
 </script> -->
 
 <template>
-  <div class="mb-4 border-b border-gray-200 dark:border-gray-700">
+  <slot></slot>
+  <!-- <div class="mb-4 border-b border-gray-200 dark:border-gray-700">
     <ul
       class="flex flex-wrap -mb-px text-sm font-medium text-center"
       id="default-tab"
@@ -26,7 +27,7 @@ withDefaults(defineProps<Props>(), {
   </div>
   <div id="default-tab-content">
     <slot name="tabContent"></slot>
-  </div>
+  </div> -->
 </template>
 
 <script setup lang="ts"></script>

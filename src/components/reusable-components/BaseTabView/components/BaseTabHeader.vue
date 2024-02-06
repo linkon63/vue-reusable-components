@@ -17,14 +17,12 @@
 import { ref } from "vue";
 
 interface Props {
+  id: string;
   name?: string;
-  content?: string;
-  id?: string;
 }
 withDefaults(defineProps<Props>(), {
-  name: "Default",
-  content: "content",
   id: "",
+  name: "Default",
 });
 
 const activeTab = ref("");

@@ -14,11 +14,11 @@
 import { provide } from "vue";
 import BaseTabView from "../BaseTabView.vue";
 interface Props {
+  id: string;
   content?: string;
-  id?: string;
 }
 const props = withDefaults(defineProps<Props>(), {
-  content: "Default",
   id: "",
+  content: "Default",
 });
 </script>
