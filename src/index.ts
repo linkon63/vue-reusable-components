@@ -9,6 +9,7 @@ import BaseSelectInput from "./components/reusable-components/BaseSelectInput.vu
 import BaseTextArea from "./components/reusable-components/BaseTextArea.vue";
 import BaseChips from "./components/reusable-components/BaseChips/BaseChips.vue";
 import BaseAccordion from "./components/reusable-components/BaseAccordion/BaseAccordion.vue";
+import BaseTabView from "./components/reusable-components/BaseTabView/BaseTabView.vue";
 
 export {
   BaseButton,
@@ -22,4 +23,5 @@ export {
   BaseInput,
   BaseChips,
   BaseAccordion,
+  BaseTabView,
 };
