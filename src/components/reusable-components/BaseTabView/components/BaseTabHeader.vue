@@ -1,49 +1,41 @@
 <template>
-  <li class="me-2" role="presentation">
-    <button
-      class="inline-block p-4 border-b-2 rounded-t-lg"
-      :id="id + 'tab'"
-      :data-tabs-target="'#' + id"
-      type="button"
-      role="tab"
-      :aria-controls="id"
-      aria-selected="false"
-    >
-      {{ name }}
-    </button>
-  </li>
+  <button
+    class="inline-block p-4 border-b-2 rounded-t-lg hover:border-b-2 hover:border-teal-700"
+    :class="`${
+      preSelected &&
+      `border-b-2 border-teal-700 ${tabHeaderClass}  ${item?.tabSelectedClass}`
+    }  ${item.tabClass}`"
+    type="button"
+    @click="click(item.id)"
+  >
+    <span v-if="item.prefixIcon" :class="item?.prefixIconClass">
+      <i :class="item.prefixIcon"></i>
+    </span>
+    {{ item.tabName }}
+    <span v-if="item.suffixIcon" :class="item?.suffixIconClass">
+      <i :class="item.suffixIcon"></i>
+    </span>
+  </button>
 </template>
 <script lang="ts" setup>
-import { ref } from "vue";
-
+import { TabItemType } from "../types";
 interface Props {
-  id: string;
-  name?: string;
+  item: TabItemType;
+  preSelected?: boolean;
+  tabHeaderClass?: string;
 }
 withDefaults(defineProps<Props>(), {
   id: "",
   name: "Default",
+  preSelected: false,
+  tabHeaderClass: "",
 });
 
-const activeTab = ref("");
+const emit = defineEmits<{
+  (id: "on-tab-click", event: string | number): void;
+}>();
 
-// <div class="me-2" role="presentation">
-//     <!-- data-tabs-target="#profile"
-//       aria-selected="false" -->
-//     <!-- role="tab" -->
-//     <!-- id="profile-tab" -->
-//     <button
-//       class="inline-block p-4 border-b-2 rounded-t-lg"
-//       :class="activeTab === name && 'text-white bg-blue-600 rounded-lg active'"
-//       type="button"
-//       @click="
-//         (e) => {
-//           console.log('Header Click pass the props to the base tab view', e);
-//           activeTab = name;
-//         }
-//       "
-//     >
-//       {{ name }} {{ content }}
-//     </button>
-//   </div>
+const click = (id: string | number): void => {
+  emit("on-tab-click", id);
+};
 </script>

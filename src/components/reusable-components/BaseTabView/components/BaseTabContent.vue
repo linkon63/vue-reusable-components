@@ -1,24 +1,18 @@
 <template>
-  <div
-    class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
-    :id="id"
-    role="tabpanel"
-    :aria-labelledby="id + 'tab'"
+  <p
+    class="p-4 rounded-lg bg-gray-50 dark:bg-gray-800"
+    :class="tabContentClass"
   >
-    <p class="text-sm text-gray-500 dark:text-gray-400">
-      {{ content }}
-    </p>
-  </div>
+    {{ content }}
+  </p>
 </template>
 <script lang="ts" setup>
-import { provide } from "vue";
-import BaseTabView from "../BaseTabView.vue";
 interface Props {
-  id: string;
   content?: string;
+  tabContentClass?: string;
 }
-const props = withDefaults(defineProps<Props>(), {
-  id: "",
+withDefaults(defineProps<Props>(), {
   content: "Default",
+  tabContentClass: "",
 });
 </script>
