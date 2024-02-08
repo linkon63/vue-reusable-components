@@ -18,7 +18,14 @@ $ npm run dev
 Install Tailwind for use this library
 Link : https://tailwindcss.com/docs/installation
 
-then install vue-reusable-components
+## OR Include CDN in index.html file in your projects
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css"  rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+
+
+## then install vue-reusable-components
 
 $ npm i vue-reusable-components
 ```
