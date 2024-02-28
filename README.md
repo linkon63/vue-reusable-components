@@ -1,15 +1,8 @@
-### Vue reusable components
+## Vue reusable components
 
-#### | Vue reusable components are there where you can import the component and pass the props for customization..
-
+#### Installation
 ```bash
-$ git clone https://github.com/linkon63/vue-reusable-components/tree/main
-$ npm install
-$ npm run dev
-```
-
-```bash
-📑 note : there is reusable-component-playground file, where you can check the components and test and also explore every components 🌀.
+$ npm i vue-reusable-components
 ```
 
 # Pre-requisites
@@ -24,11 +17,23 @@ Link : https://tailwindcss.com/docs/installation
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
 <script src="https://cdn.tailwindcss.com"></script>
 
-
 ## then install vue-reusable-components
 
 $ npm i vue-reusable-components
 ```
+
+#### Vue reusable components are there where you can import the component and pass the props for customization..
+
+```bash
+$ git clone https://github.com/linkon63/vue-reusable-components/tree/main
+$ npm install
+$ npm run dev
+```
+
+```bash
+📑 note : there is reusable-component-playground file, where you can check the components and test and also explore every components 🌀.
+```
+
 
 ## 1 BaseInput
 
