@@ -1,6 +1,28 @@
-### Vue reusable components
+## Vue reusable components
 
-#### | Vue reusable components are there where you can import the component and pass the props for customization..
+#### Installation
+```bash
+$ npm i vue-reusable-components
+```
+
+# Pre-requisites
+
+```bash
+Install Tailwind for use this library
+Link : https://tailwindcss.com/docs/installation
+
+## OR Include CDN in index.html file in your projects
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css"  rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+
+## then install vue-reusable-components
+
+$ npm i vue-reusable-components
+```
+
+#### Vue reusable components are there where you can import the component and pass the props for customization..
 
 ```bash
 $ git clone https://github.com/linkon63/vue-reusable-components/tree/main
@@ -12,16 +34,6 @@ $ npm run dev
 📑 note : there is reusable-component-playground file, where you can check the components and test and also explore every components 🌀.
 ```
 
-# Pre-requisites
-
-```bash
-Install Tailwind for use this library
-Link : https://tailwindcss.com/docs/installation
-
-then install vue-reusable-components
-
-$ npm i vue-reusable-components
-```
 
 ## 1 BaseInput
 
@@ -618,6 +630,117 @@ interface Props {
     text-align:center;
     ">
     <img src="https://github.com/linkon63/vue-reusable-components/blob/feature/baseaccordion-reusable-component-11/public/img/baseacordion.png?raw=true" alt='base-image'
+    style="width:100%; margin: 10px"
+     />
+</div>
+
+## 11 Base Tab View
+
+```js
+// component import
+<BaseTabView />
+/* props you can pass in <BaseTabView />
+interface Props {
+  tabItems: TabItemType[];
+  tabListClass?: string;
+  tabContentClass?: string;
+  tabHeaderClass?: string;
+}
+*/
+/*
+export interface TabItemType {
+  id: string | number;
+  tabName?: string;
+  tabContent?: string;
+  tabClass?: string;
+  tabSelectedClass?: string;
+  prefixIcon?: string;
+  suffixIcon?: string;
+  prefixIconClass?: string;
+  suffixIconClass?: string;
+}
+*/
+
+// example
+    <template class="w-full">
+  <div class="p-12">
+    <BaseTabView
+      :tab-items="tabItems"
+      tab-list-class="bg-red-400 w-4/12"
+      tab-content-class="bg-green-400 w-4/12"
+      tab-header-class="border-t-2 border-teal-700"
+    />
+  </div>
+</template>
+<script setup lang="ts">
+import BaseTabView from "./components/reusable-components/BaseTabView/BaseTabView.vue";
+import type { TabItemType } from "./components/reusable-components/BaseTabView/types";
+const tabItems: TabItemType[] = [
+  {
+    id: 1,
+    tabName: "Home",
+    tabContent: "lorem ipsum dolor sit Home",
+    tabClass: "bg-red-400 text-white",
+    tabSelectedClass: "bg-blue-400 text-white",
+    prefixIcon: "fab fa-js",
+  },
+  {
+    id: 2,
+    tabName: "About",
+    tabContent: "lorem ipsum dolor sit About",
+    tabSelectedClass: "bg-green-400 text-white",
+    prefixIcon: "fab fa-vuejs",
+  },
+  { id: 3, tabName: "Profile", tabContent: "lorem ipsum dolor sit Profile" },
+  {
+    id: 4,
+    tabName: "Dashboard",
+    tabContent: "lorem ipsum dolor sit Dashboard",
+  },
+];
+</script>
+```
+
+```bash
+📑 note : index.html file import the cdn of front awesome
+Example Below :
+```
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Vue</title>
+    <!-- This line you have to add Start -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <!-- This line you have to add End -->
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+  <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+</html>
+```
+
+### demo
+
+<div style=" 
+    width:100%;
+    text-align:center;
+    ">
+    <img src="https://github.com/linkon63/vue-resuable-components/blob/b655fe9a1d25cf577403bc700e404bc3b5ae95f0/public/img/tabview1.png?raw=true" alt='base-image'
+    style="width:100%; margin: 10px"
+     />
+     <img src="https://github.com/linkon63/vue-resuable-components/blob/b655fe9a1d25cf577403bc700e404bc3b5ae95f0/public/img/tabView2.png?raw=true" alt='base-image'
     style="width:100%; margin: 10px"
      />
 </div>

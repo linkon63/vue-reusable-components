@@ -9,11 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/vue-fontawesome": "^3.0.6",
     "flowbite": "^2.2.1",
     "flowbite-vue": "^0.1.2",
     "vue": "^3.3.11"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
     "@vitejs/plugin-vue": "^4.5.2",
     "autoprefixer": "^10.4.17",
     "postcss": "^8.4.33",
